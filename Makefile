@@ -23,6 +23,6 @@ all: ${OBJECTS}
 	gcc ./helpers/vector.c ${INCLUDES} -o ./build/helpers/vector.o -g -c
 
 clean:
-	rm ./main
+	rm -f ./main
 	rm -rf ${OBJECTS}
 
